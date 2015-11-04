@@ -12,7 +12,7 @@ def main(argv):
 	try:
 		f1 = open(argv[1], 'w')
 
-		f1.write('\t\t10000\t\t100000\t\t\t1000000\t\t\t10000000')
+		f1.write('\t10000\t\t\t100000\t\t\t1000000\t\t\t10000000')
 
 		t = 0
 		for line in lines:
