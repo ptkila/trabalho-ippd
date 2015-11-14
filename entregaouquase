@@ -1,0 +1,141 @@
+Integrantes do grupo: Thainan Remboski, Pablo Kila, Daniel Farias
+
+Tarefa A: Implementação em OpenMP
+
+
+#include <omp.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+int main(int argc, char *argv[])
+{
+	int i = 0;
+	int circle_points = 0; // Quantidade de pontos que se encontram dentro do circulo
+	int total_points = 100000; // Total de pontos calculados, valor usado nos testes iniciais
+	double x = 0.0, y = 0.0; // Pontos a serem determinados pelo metodo usado
+	double pi = 0.0; // Variavel que recebe o resultado final
+
+// Os valores de x e y não devem se compartilhadas por isso são passados como private, entretanto o valor de 
+//circle_points deve ser recebido 
+//como a soma de todos os valores encontrados para essa variavel, portanto é usado reduction
+	#pragma omp parallel private(x, y) reduction(+:circle_points)
+	{
+		#pragma omp for
+		for (i = 0; i < total_points; i++) {
+			x = drand48(); // Funcao usada para calcular valores entre 0 e 1
+			y = drand48(); //com ela a velocidade de execução aumenta, entretanto a precisão acaba sendo reduzida
+			if (x * x + y * y <= 1) {
+				circle_points++; // Se o valor gerado se encontra no circulo, adiciona esse número na variavel usada no calculo
+			}
+		}
+	}
+	pi = (double)4 * (double)circle_points / (double)total_points; // Funcao usada na especificacao do trabalho
+	printf("Pi = %f\n", pi);
+	return 0;
+}
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Tarefa B: Implementação usando MPI
+
+
+#include <mpi.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <limits.h>
+#include "omp.h"
+
+#define NUM_THREADS 8
+#define NUM_ITER INT_MAX
+
+int monte_carlo_partition(int end_value) {
+
+	int i = 0;
+	int circle_points = 0; // Quantidade de pontos que se encontram dentro do circulo
+	double x = 0.0, y = 0.0; // Pontos a serem determinados pelo metodo usado
+	double z = 0.0; // Valor que define se um ponto se encontra dentro de um circulo
+
+	srandom((int)time(NULL)); // Gerador de numeros pseudo aleatorios
+
+// num_threads se refere a quantidade de threads usadas nos testes iniciais 
+	#pragma omp parallel private(x, y) reduction(+:circle_points) num_threads(NUM_THREADS)
+	{
+		#pragma omp for
+		for (i = 0; i < end_value; i++) {
+			x = (double)random() / (double)RAND_MAX; // Funcao usada para calcular os pontos, RAND_MAX sera sempre maior ou igual a 
+			y = (double)random() / (double)RAND_MAX; // Random, fazendo o resultado variar de 0 a 1
+			z = sqrt((x * x) + (y * y)); // Calculo da localizacao do ponto
+			if (z <= 1.0) { circle_points++; } // Determina se faz parte do circulo
+		}
+	}
+	return circle_points;
+}
+
+int main(int argc, char** argv) {
+
+	MPI_Status status; // Recebe quem enviou a mensagem e seu tag
+	int i = 0, proc = 0;
+	int circle_points = 0; // Valor total usado no calculo final
+	int circle_points_part = 0; // Valor recebido de cada interação com MPI 
+	int num_iter = NUM_ITER; // Quantidade de iteracoes usadas no teste
+	int num_proc = 0, proc_id = 0; // Quantidade e ids dos processos que serao usados
+	int master = 0, tag = 1313; // Variaveis necessarias para o MPI
+	double pi = 0.0; // Variavel que recebe o resultado final
+
+// Inicializacao do MPI
+	MPI_Init(&argc, &argv); 
+	MPI_Comm_size(MPI_COMM_WORLD, &num_proc);
+	MPI_Comm_rank(MPI_COMM_WORLD, &proc_id);
+
+// Particoes serao o total de iteracoes dividido pelo numero de processos menos um que recebe o resultado final
+	int part = num_iter / (num_proc - 1);
+
+// Dependendo da id do processo sera feito Send ou Recv
+	if (proc_id == 0) { // Processo usado para receber o resultado da execucao
+
+		for (proc = 1; proc < num_proc; proc++) {
+			MPI_Recv(&circle_points_part, 1, MPI_REAL, proc, tag, MPI_COMM_WORLD, &status);
+			circle_points += circle_points_part;
+	}
+	pi = (double)circle_points / (double)num_iter * (double)4.0; // Funcao usada na especificacao do trabalho
+	printf("Pi = %f\n", pi);
+
+	} else {
+		circle_points_part = monte_carlo_partition(part);
+		MPI_Send(&circle_points_part, 1, MPI_REAL, master, tag, MPI_COMM_WORLD);
+	}
+	MPI_Finalize(); // Termina o MPI
+}
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Tarefa C: Desempenho da implementação da tarefa A
+
+
+	Abaixo encontra-se uma tabela com o tempo de execução da tarefa A, foram usadas 1,2,4,8,16,32 e 64 threads, os valores 10000,100000,1000000 e 10000000 se referem a quantidade de pontos gerados pelo montecarlo.
+
+	10000 	  100000    1000000   10000000
+
+1 	0m0.002s  0m0.003s  0m0.027s  0m0.206s
+2 	0m0.001s  0m0.003s  0m0.025s  0m0.217s
+4 	0m0.002s  0m0.004s  0m0.030s  0m0.239s
+8 	0m0.002s  0m0.004s  0m0.036s  0m0.285s
+16 	0m0.002s  0m0.005s  0m0.038s  0m0.283s
+32 	0m0.003s  0m0.005s  0m0.039s  0m0.297s
+64 	0m0.004s  0m0.009s  0m0.045s  0m0.297s
+
+	A quantidade de threads foram usadas colocando no parâmetro da função omp_set_num_threads, os valores de teste para o 
+	programa foram usados em consideração ao compilador GCC, dependendo da quantidade usada o tempo de execução acaba 
+	aumentando de forma que não foi possivel encontrar o tempo de término da execução.
+	De acordo com a execução notasse que o tempo de execução acaba tendo pouca variação com menos pontos sendo gerados, 
+	entretanto com 64 threads o tempo acaba sendo pior que as outras quantidades, pelo menos até o valor de 10000000 pontos, 
+	isso ocorre pelo tempo necessário para criar e sincronizar um número maior de threads mesmo que o problema seja simples,
+	criar um valor aleatório e realizar um calculo são funções que não exigem muito processamento, entretanto conforme o 
+	número de pontos aumenta é possível notar uma aproximação entre os tempos de uso de 64 e 32 threads, isso indica um 
+	melhor desempenho no uso de threads a partir de uma quantidade indefinida, mas pelo processo ser simples seria 
+	necessário um valor mais alto para de fato justificar o uso de threads.
