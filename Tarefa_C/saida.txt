@@ -1,0 +1,2240 @@
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.005s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.000s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.021s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.022s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.022s
+user	0m0.021s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.022s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.021s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.021s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.022s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.022s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.021s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 1000000
+
+real	0m0.021s
+user	0m0.020s
+sys	0m0.001s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.200s
+user	0m0.197s
+sys	0m0.002s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.204s
+user	0m0.199s
+sys	0m0.002s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.205s
+user	0m0.201s
+sys	0m0.002s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.204s
+user	0m0.199s
+sys	0m0.002s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.206s
+user	0m0.199s
+sys	0m0.002s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.230s
+user	0m0.204s
+sys	0m0.004s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.251s
+user	0m0.243s
+sys	0m0.002s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.304s
+user	0m0.292s
+sys	0m0.004s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 1
+TOTAL: 10000000
+
+real	0m0.301s
+user	0m0.291s
+sys	0m0.004s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.089s
+user	0m0.003s
+sys	0m0.085s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.028s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.031s
+user	0m0.029s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.028s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.035s
+user	0m0.032s
+sys	0m0.002s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.040s
+user	0m0.037s
+sys	0m0.002s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.034s
+user	0m0.029s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.275s
+user	0m0.269s
+sys	0m0.002s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.278s
+user	0m0.270s
+sys	0m0.003s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.278s
+user	0m0.271s
+sys	0m0.003s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.276s
+user	0m0.271s
+sys	0m0.002s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.274s
+user	0m0.266s
+sys	0m0.002s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.280s
+user	0m0.274s
+sys	0m0.003s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.274s
+user	0m0.266s
+sys	0m0.003s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.268s
+user	0m0.263s
+sys	0m0.002s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.263s
+sys	0m0.002s
+
+
+THREADS: 2
+TOTAL: 10000000
+
+real	0m0.268s
+user	0m0.263s
+sys	0m0.002s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.028s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.273s
+user	0m0.267s
+sys	0m0.002s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.274s
+user	0m0.266s
+sys	0m0.003s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.271s
+user	0m0.266s
+sys	0m0.002s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.277s
+user	0m0.270s
+sys	0m0.002s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.273s
+user	0m0.264s
+sys	0m0.002s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.274s
+user	0m0.266s
+sys	0m0.003s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.273s
+user	0m0.267s
+sys	0m0.003s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.271s
+user	0m0.265s
+sys	0m0.002s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.271s
+user	0m0.264s
+sys	0m0.002s
+
+
+THREADS: 4
+TOTAL: 10000000
+
+real	0m0.271s
+user	0m0.266s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.029s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.035s
+user	0m0.033s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.028s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.272s
+user	0m0.267s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.272s
+user	0m0.265s
+sys	0m0.003s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.264s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.271s
+user	0m0.264s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.269s
+user	0m0.264s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.272s
+user	0m0.264s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.272s
+user	0m0.266s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.268s
+user	0m0.263s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.269s
+user	0m0.264s
+sys	0m0.002s
+
+
+THREADS: 8
+TOTAL: 10000000
+
+real	0m0.283s
+user	0m0.274s
+sys	0m0.004s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.088s
+user	0m0.001s
+sys	0m0.086s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.013s
+user	0m0.003s
+sys	0m0.009s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.028s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.034s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.049s
+user	0m0.046s
+sys	0m0.002s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.029s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.028s
+sys	0m0.001s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.273s
+user	0m0.267s
+sys	0m0.003s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.275s
+user	0m0.268s
+sys	0m0.003s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.271s
+user	0m0.266s
+sys	0m0.002s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.265s
+sys	0m0.002s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.287s
+user	0m0.265s
+sys	0m0.004s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.272s
+user	0m0.266s
+sys	0m0.003s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.279s
+user	0m0.268s
+sys	0m0.003s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.271s
+user	0m0.266s
+sys	0m0.002s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 16
+TOTAL: 10000000
+
+real	0m0.269s
+user	0m0.264s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.068s
+user	0m0.001s
+sys	0m0.064s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 10000
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.008s
+user	0m0.005s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.006s
+user	0m0.004s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 100000
+
+real	0m0.006s
+user	0m0.003s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 1000000
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.001s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.273s
+user	0m0.266s
+sys	0m0.003s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.274s
+user	0m0.265s
+sys	0m0.003s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.274s
+user	0m0.268s
+sys	0m0.003s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.272s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.275s
+user	0m0.265s
+sys	0m0.007s
+
+
+THREADS: 32
+TOTAL: 10000000
+
+real	0m0.272s
+user	0m0.266s
+sys	0m0.003s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.010s
+user	0m0.001s
+sys	0m0.008s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.009s
+user	0m0.001s
+sys	0m0.007s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 10000
+
+real	0m0.014s
+user	0m0.001s
+sys	0m0.012s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.018s
+user	0m0.004s
+sys	0m0.014s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.006s
+user	0m0.003s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.025s
+user	0m0.004s
+sys	0m0.020s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.006s
+user	0m0.004s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.006s
+user	0m0.004s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.034s
+user	0m0.030s
+sys	0m0.003s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.036s
+user	0m0.029s
+sys	0m0.004s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.031s
+user	0m0.027s
+sys	0m0.003s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 1000000
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.002s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.273s
+user	0m0.266s
+sys	0m0.004s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.273s
+user	0m0.266s
+sys	0m0.004s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.363s
+user	0m0.268s
+sys	0m0.091s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.275s
+user	0m0.266s
+sys	0m0.004s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.271s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.277s
+user	0m0.271s
+sys	0m0.004s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.272s
+user	0m0.264s
+sys	0m0.004s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.274s
+user	0m0.266s
+sys	0m0.004s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.269s
+user	0m0.264s
+sys	0m0.003s
+
+
+THREADS: 64
+TOTAL: 10000000
+
+real	0m0.270s
+user	0m0.264s
+sys	0m0.003s
