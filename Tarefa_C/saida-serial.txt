@@ -1,0 +1,200 @@
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.001s
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+TOTAL: 10000
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+TOTAL: 10000
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.000s
+TOTAL: 100000
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+TOTAL: 100000
+
+real	0m0.006s
+user	0m0.003s
+sys	0m0.001s
+TOTAL: 100000
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.001s
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+TOTAL: 100000
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.026s
+user	0m0.023s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.024s
+user	0m0.023s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.025s
+user	0m0.023s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.024s
+user	0m0.024s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.024s
+user	0m0.024s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.024s
+user	0m0.023s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.024s
+user	0m0.023s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.024s
+user	0m0.023s
+sys	0m0.001s
+TOTAL: 1000000
+
+real	0m0.023s
+user	0m0.023s
+sys	0m0.000s
+TOTAL: 1000000
+
+real	0m0.023s
+user	0m0.023s
+sys	0m0.000s
+TOTAL: 10000000
+
+real	0m0.231s
+user	0m0.227s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.237s
+user	0m0.232s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.236s
+user	0m0.232s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.238s
+user	0m0.232s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.233s
+user	0m0.230s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.236s
+user	0m0.233s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.237s
+user	0m0.232s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.285s
+user	0m0.282s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.318s
+user	0m0.311s
+sys	0m0.002s
+TOTAL: 10000000
+
+real	0m0.313s
+user	0m0.307s
+sys	0m0.002s
