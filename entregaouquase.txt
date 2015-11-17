@@ -8,13 +8,19 @@ Tarefa A: Implementação em OpenMP
 #include <stdlib.h>
 #include <limits.h>
 
+#define NUM_THREADS 4 	// Define o numero de threads
+
 int main(int argc, char *argv[])
 {
 	int i = 0;
 	int circle_points = 0; // Quantidade de pontos que se encontram dentro do circulo
 	int total_points = 100000; // Total de pontos calculados, valor usado nos testes iniciais
+	int num_threads = NUM_THREADS;	// Seta a variavel num_threads com o numero de threads definido
 	double x = 0.0, y = 0.0; // Pontos a serem determinados pelo metodo usado
 	double pi = 0.0; // Variavel que recebe o resultado final
+
+	omp_set_num_threads(num_threads);	// Seta o numero de threads a ser utilizado
+
 
 // Os valores de x e y não devem se compartilhadas por isso são passados como private, entretanto o valor de 
 //circle_points deve ser recebido 
@@ -114,26 +120,57 @@ int main(int argc, char** argv) {
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-Tarefa C: Desempenho da implementação da tarefa A
+Tarefa C: Descrição dos recursos de paralelismo e Análise de desempenho da implementação da tarefa A
+
+Descrição dos recursos de paralelismo:
+
+	## Tarefa A ##
+	A ferramenta de programação multithread utilizada na tarefa A foi OpenMP.
+
+	A quantidade de threads foi setada no parâmetro da função omp_set_num_threads.
+	A região paralela foi criada com a diretiva "#pragma omp parallel", onde foram passadas duas variáveis privadas (x e y) e uma
+	variável de redução para soma (circle_points). Essa variável é utilizada para armazenar o número de pontos no interior do círculo.
+	No interior da região paralela, for utilizada a diretiva "#pragma omp for" para gerar as threads que vão iterar sobre o total de
+	pontos, gerando os pontos que pertecerão ou não ao interior do círculo.
+	No final, a variável "circle_points" vai estar com o total de pontos gerados no interior do círculo.
+
+	## Tarefa B ##
+	As ferramentas de programação multithread utilizadas na tarefa B forão OpenMP e MPI.
+
+	Na função "monte_carlo_partition":
+	A região paralela foi criada com a diretiva "#pragma omp parallel", onde foram passadas duas variáveis privadas (x e y) e uma
+	variável de redução para soma (circle_points). Essa variável é utilizada para armazenar o número de pontos no interior do círculo.
+	Também foi setado o número de threads a ser utilizado.
+	No interior da região paralela, for utilizada a diretiva "#pragma omp for" para gerar as threads que vão iterar sobre o total de
+	pontos, gerando os pontos que pertecerão ou não ao interior do círculo.
+	No final, a variável "circle_points" vai estar com o total de pontos gerados no interior do círculo.
+
+	No "main":
+	O MPI é inicializado com a função "MPI_Init" e logo depois são setados o "size" e o "rank" com as funções "MPI_Comm_size" e
+	"MPI_Comm_rank".
+	Todos os processos com exceção do processo zero (master) são responsáveis por chamar a função "monte_carlo_partition" para
+	coletar os resultados parciais e mandá-los para o "master" através da função "MPI_Send".
+	O processo "master" recebe todos os resultados parciais através da função "MPI_Recv". O resultado final é gerado e mostrado.
+	Ao término, o MPI é finalizado pela função "MPI_Finalize".
 
 
-	Abaixo encontra-se uma tabela com o tempo de execução da tarefa A, foram usadas 1,2,4,8,16,32 e 64 threads, os valores 10000,100000,1000000 e 10000000 se referem a quantidade de pontos gerados pelo montecarlo.
+Desempenho:
+	Abaixo encontra-se uma tabela com o tempo de execução da tarefa A, foram usadas 0, 1, 2, 4, 8, 16, 32 e 64 threads, sendo 0 threads, a implementação serial. Os valores 10000, 100000, 1000000 e 10000000 se referem a quantidade de pontos gerados pelo montecarlo.
+	Os valores da tabela referem-se a média do tempo de execução de 10 execuções do algoritmo. Esses valores foram adquridos através da função "time" do Linux.
 
-	10000 	  100000    1000000   10000000
+	10000			100000			1000000			10000000
+0	0.0014s			0.0033s			0.0217s			0.2318s
+1	0.0012s			0.0041s			0.028s			0.269s
+2	0.0014s			0.004s			0.0291s			0.2722s
+4	0.0015s			0.004s			0.0295s			0.2966s
+8	0.0019s			0.004s			0.0283s			0.2682s
+16	0.002s			0.004s			0.0289s			0.2701s
+32	0.002s			0.005s			0.0299s			0.2702s
+64	0.004s			0.0061s			0.0307s			0.2702s
 
-1 	0m0.002s  0m0.003s  0m0.027s  0m0.206s
-2 	0m0.001s  0m0.003s  0m0.025s  0m0.217s
-4 	0m0.002s  0m0.004s  0m0.030s  0m0.239s
-8 	0m0.002s  0m0.004s  0m0.036s  0m0.285s
-16 	0m0.002s  0m0.005s  0m0.038s  0m0.283s
-32 	0m0.003s  0m0.005s  0m0.039s  0m0.297s
-64 	0m0.004s  0m0.009s  0m0.045s  0m0.297s
-
-	A quantidade de threads foram usadas colocando no parâmetro da função omp_set_num_threads, os valores de teste para o 
-	programa foram usados em consideração ao compilador GCC, dependendo da quantidade usada o tempo de execução acaba 
-	aumentando de forma que não foi possivel encontrar o tempo de término da execução.
-	De acordo com a execução notasse que o tempo de execução acaba tendo pouca variação com menos pontos sendo gerados, 
-	entretanto com 64 threads o tempo acaba sendo pior que as outras quantidades, pelo menos até o valor de 10000000 pontos, 
+	A quantidade de threads foi setada no parâmetro da função omp_set_num_threads.
+	De acordo com a execução nota-se que o tempo de execução acaba tendo pouca variação com menos pontos sendo gerados, 
+	entretanto, com 64 threads o tempo acaba sendo pior que as outras quantidades, pelo menos até o valor de 10000000 pontos, 
 	isso ocorre pelo tempo necessário para criar e sincronizar um número maior de threads mesmo que o problema seja simples,
 	criar um valor aleatório e realizar um calculo são funções que não exigem muito processamento, entretanto conforme o 
 	número de pontos aumenta é possível notar uma aproximação entre os tempos de uso de 64 e 32 threads, isso indica um 
