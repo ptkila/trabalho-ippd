@@ -158,21 +158,22 @@ Desempenho:
 	Abaixo encontra-se uma tabela com o tempo de execução da tarefa A, foram usadas 0, 1, 2, 4, 8, 16, 32 e 64 threads, sendo 0 threads, a implementação serial. Os valores 10000, 100000, 1000000 e 10000000 se referem a quantidade de pontos gerados pelo montecarlo.
 	Os valores da tabela referem-se a média do tempo de execução de 10 execuções do algoritmo. Esses valores foram adquridos através da função "time" do Linux.
 
-	10000			100000			1000000			10000000
-0	0.0014s			0.0033s			0.0217s			0.2318s
-1	0.0012s			0.0041s			0.028s			0.269s
-2	0.0014s			0.004s			0.0291s			0.2722s
-4	0.0015s			0.004s			0.0295s			0.2966s
-8	0.0019s			0.004s			0.0283s			0.2682s
-16	0.002s			0.004s			0.0289s			0.2701s
-32	0.002s			0.005s			0.0299s			0.2702s
-64	0.004s			0.0061s			0.0307s			0.2702s
+		10000			100000			1000000			10000000
+	0	0.0014s			0.0033s			0.0217s			0.2318s
+	1	0.0012s			0.0041s			0.028s			0.269s
+	2	0.0014s			0.004s			0.0291s			0.2722s
+	4	0.0015s			0.004s			0.0295s			0.2966s
+	8	0.0019s			0.004s			0.0283s			0.2682s
+	16	0.002s			0.004s			0.0289s			0.2701s
+	32	0.002s			0.005s			0.0299s			0.2702s
+	64	0.004s			0.0061s			0.0307s			0.2702s
 
-	A quantidade de threads foi setada no parâmetro da função omp_set_num_threads.
-	De acordo com a execução nota-se que o tempo de execução acaba tendo pouca variação com menos pontos sendo gerados, 
-	entretanto, com 64 threads o tempo acaba sendo pior que as outras quantidades, pelo menos até o valor de 10000000 pontos, 
-	isso ocorre pelo tempo necessário para criar e sincronizar um número maior de threads mesmo que o problema seja simples,
-	criar um valor aleatório e realizar um calculo são funções que não exigem muito processamento, entretanto conforme o 
-	número de pontos aumenta é possível notar uma aproximação entre os tempos de uso de 64 e 32 threads, isso indica um 
-	melhor desempenho no uso de threads a partir de uma quantidade indefinida, mas pelo processo ser simples seria 
-	necessário um valor mais alto para de fato justificar o uso de threads.
+
+	De acordo com os resultados obtidos pela média de 10 execuções, nota-se que o aumento da quantidade de threads não apresenta
+	uma mudança significativa no tempo de execução do algoritmo de Monte Carlo.
+	Um dos fatores mais significativos analisados, é a diferença entre a execução do algoritmo de forma paralela e serial.
+	Na execução serial, o algoritmo se mostrou levemente mais rápido do que na execução paralela com 1 ou 2 threads. Isso pode ser
+	atribuído ao overhead de criação das threads, porém esse fator não se mostra tão presente nas diferentes execuções paralelas.
+	Como já era esperado, a diferença mais visível no desempenho se deu na mudança do total de pontos calculados, onde quanto maior
+	o número de pontos, maior o tempo de execução do algoritmo.
+	Isso se deve, provavelmente, pelo algoritmo não ser muito complexo, onde a utilização de threads não aparenta ser muito necessária.
